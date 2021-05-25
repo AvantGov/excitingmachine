@@ -1,0 +1,14 @@
+.Header {
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 17.5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.Header__logoContainer {
+    background-image: url('../../../assets/imgs/IMG_0154.jpg');
+    background-position: center right;
+}

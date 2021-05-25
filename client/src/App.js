@@ -1,9 +1,14 @@
+// * DEPENDS.
+// import './CSS/index.css'
+
+// * COMPONENTS
+import Header from './Components/Framework/Header/Header.js'
 
 
 function App() {
   return (
     <div className="App">
-        i am the app look at me
+        <Header />
     </div>
   );
 }
