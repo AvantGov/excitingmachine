@@ -1,5 +1,13 @@
 .Nav {
     border: 2px solid red;
-    width: 50%;
+    width: 300%;
     height: 100%;
+    
+    
+    
+}
+
+.listContainer__navList {
+    display: flex;
+    justify-content: space-around;    
 }

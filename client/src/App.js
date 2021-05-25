@@ -1,5 +1,5 @@
 // * DEPENDS.
-// import './CSS/index.css'
+import './CSS/App.css'
 
 // * COMPONENTS
 import Header from './Components/Framework/Header/Header.js'
