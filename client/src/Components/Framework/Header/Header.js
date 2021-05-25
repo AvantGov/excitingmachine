@@ -25,6 +25,7 @@ const Header = () => {
             <div className='Header__navContainer'>
                 <Nav />
             </div>
+            {/* TODO: when needed, a menu access icon can be added here, will need to implement redux logic to create menu state for sitewide access */}
         </div>
     )
 };

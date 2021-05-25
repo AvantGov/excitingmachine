@@ -5,10 +5,30 @@
     display: flex;
     justify-content: left;
     align-items: center;
-
+    background-color: #000000;
 }
 
 .Header__logoContainer {
-    background-image: url('../../../assets/imgs/IMG_0154.jpg');
-    background-position: center right;
+    width: 7.5%;
+    height: 100%;
+    
+}
+
+img {
+    width: 90px;
+    height: 100%;
+    padding-left: 7.5%;
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+
+}
+
+.Header__navContainer {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
 }

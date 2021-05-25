@@ -12,20 +12,14 @@ const Nav = () => {
             <div className='Nav__listContainer'>
                 <ul className='listContainer__navList'>
                     <li className='navList__item'>
-                        <Link to='/' className='item__link'>Location</Link>
+                        <Link to='/' className='item__link'>HOME</Link>
                     </li>                    
                     <li className='navList__item'>
-                        <Link to='/' className='item__link'>Location</Link>
+                        <Link to='/' className='item__link'>ABOUT</Link>
                     </li>
                     <li className='navList__item'>
-                        <Link to='/' className='item__link'>Location</Link>
-                    </li>
-                    <li className='navList__item'>
-                        <Link to='/' className='item__link'>Location</Link>
-                    </li>
-                    <li className='navList__item'>
-                        <Link to='/' className='item__link'>Location</Link>
-                    </li>                
+                        <Link to='/' className='item__link'>PRODUCTS</Link>
+                    </li>               
                 </ul>    
             </div> 
         </div>
@@ -33,3 +27,9 @@ const Nav = () => {
 };
 
 export default Nav;
+
+
+// * MENU ITEM TEMPLATE 
+{/* <li className='navList__item'>
+    <Link to='/' className='item__link'>LOCATION</Link>
+</li>  */}
