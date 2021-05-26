@@ -1,0 +1,86 @@
+.Mission {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: space-around;
+    justify-content: center;
+    background-image: url('../../assets/imgs/IMG_0156.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.Mission__contentContainer {
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+
+}
+
+.contentContainer__header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.header__quote {
+    border: 1px dashed #FFFFFF;
+
+}
+
+.contentContainer__missionBtn {
+    color: #FFFFFF;
+    padding-top: 2%;
+    font-size: 2rem;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.contentContainer__missionBtn:hover {
+    text-decoration: underline;
+}
+
+.Mission__contentContainer_copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.contentContainer__copyContainer {
+    height: 100%;
+    width: 75%;
+    background-color: #000000;
+    
+}
+
+.copyContainer__copy {
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.75rem;
+    line-height: 140%;
+    padding-top: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.copyContainer__btn {
+    text-align: right;
+    padding-right: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.copyContainer__btn span {
+    color: #3acb3e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.75rem;
+    
+}
+
+.copyContainer__btn span:hover {
+    text-decoration: underline;
+}

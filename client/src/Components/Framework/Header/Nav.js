@@ -28,8 +28,3 @@ const Nav = () => {
 
 export default Nav;
 
-
-// * MENU ITEM TEMPLATE 
-{/* <li className='navList__item'>
-    <Link to='/' className='item__link'>LOCATION</Link>
-</li>  */}
