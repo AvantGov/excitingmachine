@@ -1,0 +1,12 @@
+.SiteNav {
+    border: 2px solid green;
+    height: 100%;
+    width: 70%;
+
+}
+
+
+
+.SiteNav__Link {
+    text-decoration: none;
+}
