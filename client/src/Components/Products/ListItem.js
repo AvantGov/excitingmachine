@@ -13,8 +13,8 @@ const ListItem = (props) => {
     return(
         <div className='ListItem'>
             <div className='ListItem__imgContainer'>
-                <img src={props.props.image_path} alt='product' />
-                
+                <img src={`${process.env.PUBLIC_URL}${props.props.image_path}`} alt='product' />
+                <p className='ListItem__header'>{props.props.title}</p>
             </div>
         </div>
     )
