@@ -10,10 +10,12 @@ const SiteNav = () => {
 
     return(
         <div className='SiteNav'>
-            <Link to="/" className='SiteNav__Link'>Home</Link>
-            <Link to="/" className='SiteNav__Link'>About</Link>
-            <Link to="/" className='SiteNav__Link'>Product List</Link>
-            <Link to="/" className='SiteNav__Link'>Contact Form</Link>
+            <div className='SiteNav__container'>
+                <Link to="/" className='SiteNav__Link'>Home</Link>
+                <Link to="/" className='SiteNav__Link'>About</Link>
+                <Link to="/" className='SiteNav__Link'>Product List</Link>
+                <Link to="/" className='SiteNav__Link'>Contact Form</Link>
+            </div>
         </div>
     )
 };

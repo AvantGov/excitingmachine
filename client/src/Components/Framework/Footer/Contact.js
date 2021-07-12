@@ -15,20 +15,21 @@ const Contact = () => {
             <div className='Contact__container'>
                 <ul className="container__unlist">
                     <li className='unlist__item'>
-                        <Link to='/'>Something</Link>
+                        <Link className='item__link' to='/'>Email</Link>
                     </li>
                     
                     <li className='unlist__item'>
-                        <Link to='/'>Something</Link>
+                        <Link to='/' className='item__link'>Reverb</Link>
                     </li>
                     
                     <li className='unlist__item'>
-                        <Link to='/'>Something</Link>
+                        <Link to='/' className='item__link'>Facebook</Link>
                     </li>
                     
-                    <li className='unlist__item'>
-                        <Link to='/'>Something</Link>
-                    </li>
+                    {/* TEMPLATE FOR OTHER LIST ITEMS: 
+                     <li className='unlist__item'>
+                        <Link to='/' className='item__link'>Placeholder</Link>
+                    </li> */}
                 </ul>
             </div> 
         </div>
