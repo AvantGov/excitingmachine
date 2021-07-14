@@ -1,5 +1,4 @@
 // * DEPENDS. 
-
 import React from 'react'
 
 const AboutContent = () => {
@@ -7,7 +6,7 @@ const AboutContent = () => {
     return(
         <div className='AboutContent'>
             <div className='AboutContent__imgCont'>
-                <img className='imgCont__img' />
+                <img className='imgCont__img' alt='portrait' src='/' />
             </div>
             <div className='AboutContent__container'>
                 <h1 className='container__header'>Hand Cut in Northern PA</h1>
