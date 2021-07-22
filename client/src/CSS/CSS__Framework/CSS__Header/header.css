@@ -1,0 +1,34 @@
+.Header {
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #000000;
+}
+
+.Header__logoContainer {
+    width: 7.5%;
+    height: 100%;
+    
+}
+
+img {
+    width: 90px;
+    height: 100%;
+    padding-left: 7.5%;
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+
+}
+
+.Header__navContainer {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
